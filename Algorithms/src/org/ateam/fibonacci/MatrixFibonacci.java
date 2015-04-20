@@ -35,17 +35,17 @@ public class MatrixFibonacci
 
 	}
 
-	private static void power(int[][] F, int n)
+	private static void power(int[][] f, int n)
 	{
 		if(n == 0 || n == 1)
 			return;
-		int M[][] = { {1, 1}, {1, 0}};
 
-		power(F, n / 2);
-		maxtricMultipication(F, F);
+		power(f, n / 2);
+		maxtricMultipication(f, f);
 
+		int m[][] = { {1, 1}, {1, 0}};
 		if(n % 2 != 0)
-			maxtricMultipication(F, M);
+			maxtricMultipication(f, m);
 	}
 
 	private static void maxtricMultipication(int[][] f, int[][] m)
