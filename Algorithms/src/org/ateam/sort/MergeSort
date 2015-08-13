@@ -1,0 +1,64 @@
+/**
+ * 
+ */
+
+package org.ateam.sort;
+
+/**
+ * @author swapneel.sawant
+ * 
+ */
+public class MergeSort
+{
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args)
+	{
+		int[] array = {38, 27, 43, 3, 9, 82, 10, 100, 89, 43, 4, 17};
+		int low = 0;
+		int lowend = array.length / 2;
+		int hig = array.length / 2;
+		int highend = array.length;
+		InsertionSort.insertionSort(array, low, lowend);
+		InsertionSort.insertionSort(array, hig, highend);
+		print(array);
+		int[] arrayCopy = new int[array.length];
+		int i = low;
+		int j = hig;
+		int index = 0;
+		while(index < array.length)
+		{
+			if(array[i] < array[j])
+			{
+				arrayCopy[index++] = array[i++];
+			}
+			else
+			{
+				arrayCopy[index++] = array[j++];
+			}
+			if(i == lowend)
+			{
+				System.arraycopy(array, j, arrayCopy, index, highend - index);
+				break;
+			}
+			if(j == highend)
+			{
+				System.arraycopy(array, i, arrayCopy, index, lowend - index);
+				break;
+			}
+		}
+		print(arrayCopy);
+
+	}
+
+	private static void print(int[] array)
+	{
+		for(int i = 0; i < array.length; i++)
+		{
+			System.out.print(array[i] + " ");
+		}
+		System.out.println();
+	}
+}
