@@ -4,14 +4,14 @@ import com.google.common.base.Throwables;
 
 import java.io.IOException;
 
-public class ThrowablesExamples {
+public class ThrowableExamples {
 
     public static void main(String args[]) {
 
-        ThrowablesExamples tester = new ThrowablesExamples();
+        ThrowableExamples tester = new ThrowableExamples ();
 
         try {
-            tester.showcaseThrowables();
+            tester.showcaseThrowable ();
 
         } catch (InvalidInputException e) {
             //get the root cause
@@ -23,14 +23,14 @@ public class ThrowablesExamples {
         }
 
         try {
-            tester.showcaseThrowables1();
+            tester.showcaseThrowable1 ();
 
         } catch (Exception e) {
             System.out.println(Throwables.getStackTraceAsString(e));
         }
     }
 
-    public void showcaseThrowables() throws InvalidInputException {
+    public void showcaseThrowable() throws InvalidInputException {
         try {
             sqrt(-3.0);
         } catch (Throwable e) {
@@ -40,7 +40,7 @@ public class ThrowablesExamples {
         }
     }
 
-    public void showcaseThrowables1() {
+    public void showcaseThrowable1() {
         try {
             int[] data = {1,2,3};
             getValue(data, 4);
