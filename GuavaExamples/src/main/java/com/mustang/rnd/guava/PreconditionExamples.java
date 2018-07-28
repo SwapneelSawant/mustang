@@ -1,4 +1,4 @@
-package com.mustang.rnd;
+package com.mustang.rnd.guava;
 
 import com.google.common.base.Preconditions;
 
