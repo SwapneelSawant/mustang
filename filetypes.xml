@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="klib" type="ARCHIVE" />
+      <mapping pattern="SplunkCommands" type="PLAIN_TEXT" />
       <mapping ext="avsc" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
