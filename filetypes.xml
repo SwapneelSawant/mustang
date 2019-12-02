@@ -4,6 +4,7 @@
       <mapping ext="klib" type="ARCHIVE" />
       <mapping pattern="SplunkCommands" type="PLAIN_TEXT" />
       <mapping ext="avsc" type="PLAIN_TEXT" />
+      <mapping pattern="POROS_DB" type="SQL" />
       <mapping pattern="MF_MASTER" type="SQL" />
     </extensionMap>
   </component>
