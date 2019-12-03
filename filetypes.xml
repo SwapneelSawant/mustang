@@ -6,6 +6,8 @@
       <mapping ext="avsc" type="PLAIN_TEXT" />
       <mapping pattern="POROS_DB" type="SQL" />
       <mapping pattern="MF_MASTER" type="SQL" />
+      <mapping pattern="DELETE_MF_MASTER" type="SQL" />
+      <mapping pattern="MF_MASTER_AUDIT_LOG" type="SQL" />
       <mapping pattern="UPSERT_MF_MASTER" type="SQL" />
     </extensionMap>
   </component>
