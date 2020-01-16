@@ -1,15 +1,14 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="klib" type="ARCHIVE" />
       <mapping pattern="SplunkCommands" type="PLAIN_TEXT" />
       <mapping ext="avsc" type="PLAIN_TEXT" />
-      <mapping pattern="UPSERT_MF_MASTER_V1" type="SQL" />
-      <mapping pattern="POROS_DB" type="SQL" />
-      <mapping pattern="MF_MASTER" type="SQL" />
-      <mapping pattern="DELETE_MF_MASTER" type="SQL" />
-      <mapping pattern="MF_MASTER_AUDIT_LOG" type="SQL" />
       <mapping pattern="UPSERT_MF_MASTER" type="SQL" />
+      <mapping pattern="DELETE_MF_MASTER" type="SQL" />
+      <mapping pattern="POROS_DB" type="SQL" />
+      <mapping pattern="MF_MASTER_AUDIT_LOG" type="SQL" />
+      <mapping pattern="MF_MASTER" type="SQL" />
+      <mapping pattern="UPSERT_MF_MASTER_V1" type="SQL" />
     </extensionMap>
   </component>
 </application>
