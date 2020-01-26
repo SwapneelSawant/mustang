@@ -14,6 +14,10 @@
           <option name="url" value="https://swapneelsawant@bitbucket.org/ATeam786/frameworkrepo.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://bitbucket.org" />
+          <option name="userName" value="swapneelsawant" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Documents/workspace/git" />
