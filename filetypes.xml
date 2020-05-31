@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="commands" type="PLAIN_TEXT" />
       <mapping pattern="SplunkCommands" type="PLAIN_TEXT" />
       <mapping pattern="Command" type="PLAIN_TEXT" />
       <mapping ext="avsc" type="PLAIN_TEXT" />
