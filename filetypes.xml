@@ -5,6 +5,7 @@
       <mapping pattern="SplunkCommands" type="PLAIN_TEXT" />
       <mapping pattern="Command" type="PLAIN_TEXT" />
       <mapping pattern="db" type="PLAIN_TEXT" />
+      <mapping ext="pb" type="PLAIN_TEXT" />
       <mapping ext="avsc" type="PLAIN_TEXT" />
       <mapping ext="prop" type="PLAIN_TEXT" />
       <mapping pattern="UPSERT_MF_MASTER" type="SQL" />
