@@ -4,19 +4,27 @@
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
-      <mapping pattern="SplunkCommands" type="PLAIN_TEXT" />
       <mapping pattern="commands" type="PLAIN_TEXT" />
-      <mapping pattern="db" type="PLAIN_TEXT" />
+      <mapping pattern="SplunkCommands" type="PLAIN_TEXT" />
       <mapping pattern="Command" type="PLAIN_TEXT" />
+      <mapping pattern="db" type="PLAIN_TEXT" />
       <mapping ext="avsc" type="PLAIN_TEXT" />
       <mapping ext="pb" type="PLAIN_TEXT" />
       <mapping ext="prop" type="PLAIN_TEXT" />
-      <mapping pattern="POROS_DB" type="SQL" />
-      <mapping pattern="UPSERT_MF_MASTER_V1" type="SQL" />
-      <mapping pattern="MF_MASTER_AUDIT_LOG" type="SQL" />
+      <mapping pattern="DELETE_MF_MASTER" type="SQL" />
       <mapping pattern="UPSERT_MF_MASTER" type="SQL" />
+      <mapping pattern="MF_MASTER_AUDIT_LOG" type="SQL" />
+      <mapping pattern="UPSERT_MF_MASTER_V1" type="SQL" />
+      <mapping pattern="POROS_DB" type="SQL" />
+      <mapping pattern="MF_MASTER" type="SQL" />
+      <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
+      <removed_mapping ext="psd" approved="true" type="Image" />
       <mapping pattern="DELETE_MF_MASTER" type="SQL" />
       <mapping pattern="MF_MASTER" type="SQL" />
+      <mapping pattern="MF_MASTER_AUDIT_LOG" type="SQL" />
+      <mapping pattern="POROS_DB" type="SQL" />
+      <mapping pattern="UPSERT_MF_MASTER" type="SQL" />
+      <mapping pattern="UPSERT_MF_MASTER_V1" type="SQL" />
     </extensionMap>
   </component>
 </application>
